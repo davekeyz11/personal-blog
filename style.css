@@ -1,0 +1,132 @@
+body {
+  line-height: 1.5;
+  background-image: url("IMGS/background-img\(1\).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* * Nav Bar */
+
+nav {
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+  overflow: hidden;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li {
+  float: left;
+  list-style: none;
+}
+
+ul.topnav li.topnav-right {
+  float: right;
+  list-style: none;
+}
+
+ul.topnav li a {
+  padding: 14px;
+  min-height: 16px;
+  color: #ededed;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+ul.topnav li a:hover {
+  color: #00abf9;
+  transition-duration: 1.5s;
+}
+
+#dropdownIcon {
+  display: none;
+}
+
+/* ! Mobile Aspect(Might have minor complications based on your operating system */
+
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  #dropdownIcon {
+    display: block;
+  }
+  body {
+    background-size: cover;
+  }
+}
+
+h1 {
+  font-size: 52px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ededed;
+}
+
+h2 {
+  font-size: 42px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #00abf9;
+}
+
+div.content {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+}
+
+div.btn {
+  margin-top: 32px;
+  background: transparent;
+}
+
+button.btn1 {
+  background: transparent;
+  padding: 15px;
+  border-radius: 30px;
+  border: 2px solid black;
+  margin-right: 32px;
+}
+
+button.btn1 a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ededed;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+button.btn1:hover {
+  background-color: #081b29;
+  transition-duration: 1.5s;
+}
+
+button.btn2 {
+  background: transparent;
+  padding: 15px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+button.btn2 a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ededed;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+button.btn2:hover {
+  background-color: #081b29;
+  transition-duration: 1.5s;
+}
